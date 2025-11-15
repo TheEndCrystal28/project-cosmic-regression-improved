@@ -33,14 +33,6 @@ const convertToArray = (asset, disposIndex, indexes) => {
 	}
 	return {x:x,y:y}
 }
-class Feature {
-    constructor(features) {
-        this.mean = features.mean;
-        this.errorUpper = features.errorUpper;
-        this.errorLower = features.errorLower;
-        this.value = features.value;
-    }
-}
 //const convertToRect = (arr, meanIndex,errorUpperIndex,errorLowerIndex)
 console.log(convertToArray(`0,1,2b,3,4,5,6,7,8,9
 '',a,2b,c,d,e,f,g,h,i`,0,[0]));
